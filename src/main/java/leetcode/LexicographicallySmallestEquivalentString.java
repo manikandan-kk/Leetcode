@@ -36,7 +36,7 @@ public class LexicographicallySmallestEquivalentString {
         for (int i = 0; i < bl; i++) {
             ans[i] = (char)(97 + representations[bch[i]-97]);
         }
-        return new String(ans);
+        return String.valueOf(ans);
     }
 
     public static void main(String[] args) {
